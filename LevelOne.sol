@@ -1,7 +1,7 @@
 contract LessonFirst {
     uint256 public number;
 
-    public () payable {
+    function () payable {
         number = block.number;
     }
 }
