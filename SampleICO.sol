@@ -44,7 +44,7 @@ contract SampleSafeICO {
         return members;
     }
     
-    function mmm(address _to, uint256 _value) {
+    function distribution(address _to, uint256 _value) {
         uint256 half = (_value / 2);
         
         token.transfer(_to, half);
